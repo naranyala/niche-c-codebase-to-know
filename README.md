@@ -2,9 +2,12 @@
 
 A curated list of C-based projects that are excellent for studying architecture, minimalism, or specialized systems programming.
 
+### 🔍 Discovery
+- [Search GitHub for C Repos](https://github.com/search?q=language%3Ac&type=repositories) - Explore all C-written projects.
+- [Trending C Projects (Monthly)](https://github.com/trending/c?since=monthly) - See what's currently gaining traction.
+
 ### 🛠 Minimalism & Philosophy
 - [suckless](https://suckless.org/) - (dwm, st) Extreme minimalism; code as configuration.
-- [kilo](https://github.com/antirez/kilo) - A tiny text editor in <1000 lines.
 - [TinyCC (TCC)](https://bellard.org/tcc/) - A small, fast C compiler.
 - [ed](https://en.wikipedia.org/wiki/Ed) - The original Unix line editor.
 
@@ -21,6 +24,8 @@ A curated list of C-based projects that are excellent for studying architecture,
 - [Python (CPython)](https://github.com/python/cpython) - The core implementation of Python.
 - [GCC](https://gcc.gnu.org/) - The industry standard compiler suite.
 - [MicroPython](https://github.com/micropython/micropython) - Python for microcontrollers.
+- [chibicc](https://github.com/rui314/chibicc) - A small C compiler; the gold standard for learning compiler design.
+- [clox](https://github.com/munificent/craftinginterpreters) - The C implementation of Lox from "Crafting Interpreters".
 
 ### 🌐 Networking & Protocols
 - [curl](https://curl.se/) - The gold standard for URL transfer.
@@ -96,13 +101,35 @@ A curated list of C-based projects that are excellent for studying architecture,
 - [libarchive](https://www.libarchive.org/) - Multi-format archive reading and writing.
 - [libudev](https://www.freedesktop.org/wiki/Software/libudev/) - Device management for Linux.
 
+### 🎓 Compiler Exploration
+- [chibicc](https://github.com/rui314/chibicc) - A small C compiler for educational purposes.
+- [LCC](https://github.com/mcscc/lcc) - A portable, lightweight compiler backend.
+- [LLVM](https://llvm.org/) - The industry-standard compiler infrastructure.
+
+### 🤏 Tiny & Single-File Projects
+- [linenoise](https://github.com/antirez/linenoise) - Minimalist line editor for tiny CLI tools.
+- [cJSON](https://github.com/DaveGamble/cJSON) - Lightweight, ultra-simple JSON parser.
+- [tiny-file-extensions](https://github.com/thecoderep/tiny-file-extensions) - Small C library for file extensions.
+
+### 📄 Single-Header Libraries
+- [stb](https://github.com/nothings/stb) - The gold standard for single-header C libraries (images, audio, etc.).
+- [Sokol](https://sokol.app/) - Modern, simple, cross-platform graphics/audio headers.
+- [miniaudio](https://github.com/mackron/miniaudio) - Highly portable single-header audio library.
+- [tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) - A tiny, single-header OBJ file loader.
+
 ### 💎 Niche & Hidden Gems
-- [stb](https://github.com/nothings/stb) - Single-header libraries for images, audio, and text.
 - [libuv](https://github.com/libuv/libuv) - Asynchronous I/O engine behind Node.js.
 - [jsmn](https://github.com/zserge/jsmn) - Minimalist, zero-allocation JSON parser.
-- [Sokol](https://sokol.app/) - Modern, simple, cross-platform graphics/audio headers.
 - [Bear](https://github.com/rizziko/bear) - Generates compilation databases via build interception.
 - [Tini](https://github.com/krallin/tini) - Tiny init process for containers.
+
+### ✨ Tiny Wonders & One-File Gems
+- [miniaudio](https://miniaud.io/) - The gold standard for single-header audio; handles everything from playback to capture.
+- [miniz](https://github.com/richgel999/miniz) - Single-file zlib-compatible compression.
+- [cJSON](https://github.com/DaveGamble/cJSON) - Ultra-lightweight JSON parser; the industry standard for "minimal but full" JSON.
+- [KISS FFT](https://github.com/mborgerding/kiss_fft) - "Keep It Simple Stupid" Fast Fourier Transform; great for DSP study.
+- [stb_image](https://github.com/nothings/stb/blob/master/stb_image.h) - The most widely used single-header image loader.
+- [kilo](https://github.com/antirez/kilo) - Tiny text editor in <1000 lines.
 
 ### 🧠 AI & Low-Level Math
 - [llm.c](https://github.com/karpathy/llm.c) - GPT-2 from scratch in pure C/CUDA; minimal abstraction.
