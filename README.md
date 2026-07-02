@@ -8,7 +8,6 @@ A curated list of C-based projects that are excellent for studying architecture,
 
 ###  Minimalism & Philosophy
 - [suckless](https://suckless.org/) - (dwm, st) Extreme minimalism; code as configuration.
-- [vis](https://github.com/martest/vis) - A structural regular expression editor; modern vi.
 - [TinyCC (TCC)](https://bellard.org/tcc/) - A small, fast C compiler.
 - [ed](https://en.wikipedia.org/wiki/Ed) - The original Unix line editor.
 
@@ -51,6 +50,11 @@ A curated list of C-based projects that are excellent for studying architecture,
 - [SDL](https://www.libsdl.org/) - Simple DirectMedia Layer for cross-platform games/apps.
 - [GLFW](https://www.glfw.org/) - A lightweight alternative to SDL for windowing and OpenGL.
 - [libpng](http://www.libpng.org/) - The reference implementation for PNG.
+- [libjpeg-turbo](https://libjpeg-turbo.org/) - High-performance JPEG codec.
+- [libwebp](https://developers.google.com/web/webp) - The reference implementation for WebP.
+- [PortAudio](http://www.portaudio.com/) - Cross-platform audio I/O.
+- [libsndfile](http://libsndfile.github.io/libsndfile/) - The standard C library for reading and writing audio files.
+- [x264](https://github.com/x264/x264) - The gold standard for H.264 video encoding.
 - [Pure Data](https://puredata.info/) - Visual programming language for multimedia; complex graph-based execution.
 
 ###  Security & Cryptography
@@ -135,6 +139,10 @@ A curated list of C-based projects that are excellent for studying architecture,
 - [jsmn](https://github.com/zserge/jsmn) - Minimalist, zero-allocation JSON parser.
 - [Bear](https://github.com/rizziko/bear) - Generates compilation databases via build interception.
 - [Tini](https://github.com/krallin/tini) - Tiny init process for containers.
+- [muPDF](https://mupdf.com/) - High-quality, lightweight PDF and XPS renderer.
+- [hiredis](https://github.com/redis/hiredis) - Minimalist C client for Redis.
+- [libtommath](https://github.com/tomscott/LibTomMath) - A portable, arbitrary-precision integer library.
+- [nanopb](https://github.com/nanopb/nanopb) - Plain C implementation of Protocol Buffers for embedded systems.
 
 ###  Tiny Wonders & One-File Gems
 - [miniaudio](https://miniaud.io/) - The gold standard for single-header audio; handles everything from playback to capture.
@@ -143,6 +151,7 @@ A curated list of C-based projects that are excellent for studying architecture,
 - [KISS FFT](https://github.com/mborgerding/kiss_fft) - "Keep It Simple Stupid" Fast Fourier Transform; great for DSP study.
 - [stb_image](https://github.com/nothings/stb/blob/master/stb_image.h) - The most widely used single-header image loader.
 - [kilo](https://github.com/antirez/kilo) - Tiny text editor in <1000 lines.
+- [tiny-aes-c](https://github.com/kokke/tiny-aes-c) - Extremely compact AES implementation for embedded systems.
 
 ###  AI & Low-Level Math
 - [llm.c](https://github.com/karpathy/llm.c) - GPT-2 from scratch in pure C/CUDA; minimal abstraction.
